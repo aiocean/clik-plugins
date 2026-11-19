@@ -1,0 +1,2 @@
+repo = "aiocean/clik-keycap"
+description = "Keyboard key shape to show shortcuts like ⌘K."

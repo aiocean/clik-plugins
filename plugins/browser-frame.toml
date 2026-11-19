@@ -1,0 +1,2 @@
+repo = "aiocean/clik-browser-frame"
+description = "macOS-style browser window frame to place over a screenshot."

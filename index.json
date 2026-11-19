@@ -1,5 +1,73 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T00:00:00.000Z",
-  "plugins": []
+  "generated": "2026-11-19T03:46:43.509Z",
+  "plugins": [
+    {
+      "id": "browser-frame",
+      "name": "Browser Frame",
+      "description": "macOS-style browser window frame to place over a screenshot.",
+      "repo": "aiocean/clik-browser-frame",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "asset_url": "https://github.com/aiocean/clik-browser-frame/releases/download/v0.1.0/browser-frame-0.1.0.clikplugin.tar.gz",
+      "sha256": "d904368f5da852ed2d709624223100da4146a291294b708164700149f526bca2",
+      "size": 21074,
+      "net": [],
+      "steps": [
+        {
+          "name": "browser-frame",
+          "label": "Browser frame",
+          "role": "shape"
+        }
+      ]
+    },
+    {
+      "id": "color-filters",
+      "name": "Color Filters",
+      "description": "Grayscale, sepia and invert filters for screenshots.",
+      "repo": "aiocean/clik-color-filters",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "asset_url": "https://github.com/aiocean/clik-color-filters/releases/download/v0.1.0/color-filters-0.1.0.clikplugin.tar.gz",
+      "sha256": "54e6156cb3c1c7333fb193439f462c369183a1ef167ef75e1e2d663a5edf9464",
+      "size": 20814,
+      "net": [],
+      "steps": [
+        {
+          "name": "grayscale",
+          "label": "Grayscale",
+          "role": "filter"
+        },
+        {
+          "name": "sepia",
+          "label": "Sepia",
+          "role": "filter"
+        },
+        {
+          "name": "invert",
+          "label": "Invert",
+          "role": "filter"
+        }
+      ]
+    },
+    {
+      "id": "keycap",
+      "name": "Keycap",
+      "description": "Keyboard key shape to show shortcuts like ⌘K.",
+      "repo": "aiocean/clik-keycap",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "asset_url": "https://github.com/aiocean/clik-keycap/releases/download/v0.1.0/keycap-0.1.0.clikplugin.tar.gz",
+      "sha256": "eecfa7f41e9171e4f7ef132f45ff9f5b0b49974f159f8ef48a185bf3ef448a46",
+      "size": 20062,
+      "net": [],
+      "steps": [
+        {
+          "name": "keycap",
+          "label": "Keycap",
+          "role": "shape"
+        }
+      ]
+    }
+  ]
 }

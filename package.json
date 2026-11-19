@@ -1,0 +1,18 @@
+{
+  "name": "clik-plugins",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bun src/cli.ts check",
+    "index": "bun src/cli.ts index",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "smol-toml": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}

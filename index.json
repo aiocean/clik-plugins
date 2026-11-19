@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T03:46:43.509Z",
+  "generated": "2026-11-19T04:06:00.663Z",
   "plugins": [
     {
       "id": "browser-frame",
       "name": "Browser Frame",
       "description": "macOS-style browser window frame to place over a screenshot.",
       "repo": "aiocean/clik-browser-frame",
-      "version": "0.1.0",
-      "tag": "v0.1.0",
-      "asset_url": "https://github.com/aiocean/clik-browser-frame/releases/download/v0.1.0/browser-frame-0.1.0.clikplugin.tar.gz",
-      "sha256": "d904368f5da852ed2d709624223100da4146a291294b708164700149f526bca2",
-      "size": 21074,
+      "version": "0.1.1",
+      "tag": "v0.1.1",
+      "asset_url": "https://github.com/aiocean/clik-browser-frame/releases/download/v0.1.1/browser-frame-0.1.1.clikplugin.tar.gz",
+      "sha256": "4da370702a0a8f67b3ef5ce08acdbd75e3f5a9be9dbca6b51f3d98009d0a439f",
+      "size": 21449,
       "net": [],
       "steps": [
         {
@@ -55,11 +55,11 @@
       "name": "Keycap",
       "description": "Keyboard key shape to show shortcuts like ⌘K.",
       "repo": "aiocean/clik-keycap",
-      "version": "0.1.0",
-      "tag": "v0.1.0",
-      "asset_url": "https://github.com/aiocean/clik-keycap/releases/download/v0.1.0/keycap-0.1.0.clikplugin.tar.gz",
-      "sha256": "eecfa7f41e9171e4f7ef132f45ff9f5b0b49974f159f8ef48a185bf3ef448a46",
-      "size": 20062,
+      "version": "0.1.1",
+      "tag": "v0.1.1",
+      "asset_url": "https://github.com/aiocean/clik-keycap/releases/download/v0.1.1/keycap-0.1.1.clikplugin.tar.gz",
+      "sha256": "6e2b4553883efabdbfe7c95edccbec00d477b9eaf74cd71f54cd1d2baa524a90",
+      "size": 20460,
       "net": [],
       "steps": [
         {

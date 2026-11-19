@@ -40,6 +40,7 @@ const RawManifest = z.strictObject({
             right: z.number().nonnegative().optional(),
             bottom: z.number().nonnegative().optional(),
             left: z.number().nonnegative().optional(),
+            url: z.string().optional(),
           })
           .optional(),
         props: z
@@ -78,8 +79,10 @@ export function parseManifest(toml: string): Manifest {
   const badHost = raw.net.find((h) => !isBareHostname(h));
   if (badHost !== undefined) throw new CheckError(`net entry ${JSON.stringify(badHost)} is not a bare hostname`);
   for (const step of raw.steps) {
-    if (step.frame !== undefined && step.role !== "shape") {
-      throw new CheckError(`step ${JSON.stringify(step.name)}: frame is only for shape steps, with insets of 0 or more`);
+    const urlProp = step.frame?.url;
+    const urlOk = urlProp === undefined || step.props.some((p) => p.key === urlProp && p.kind === "text");
+    if (step.frame !== undefined && (step.role !== "shape" || !urlOk)) {
+      throw new CheckError(`step ${JSON.stringify(step.name)}: frame is only for shape steps, with insets of 0 or more and url naming a text prop`);
     }
     for (const prop of step.props) {
       const reason = propDefaultError(prop.kind, prop.default);

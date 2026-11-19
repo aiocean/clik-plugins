@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T04:06:00.663Z",
+  "generated": "2026-11-19T04:35:28.597Z",
   "plugins": [
     {
       "id": "browser-frame",
       "name": "Browser Frame",
       "description": "macOS-style browser window frame to place over a screenshot.",
       "repo": "aiocean/clik-browser-frame",
-      "version": "0.1.1",
-      "tag": "v0.1.1",
-      "asset_url": "https://github.com/aiocean/clik-browser-frame/releases/download/v0.1.1/browser-frame-0.1.1.clikplugin.tar.gz",
-      "sha256": "4da370702a0a8f67b3ef5ce08acdbd75e3f5a9be9dbca6b51f3d98009d0a439f",
-      "size": 21449,
+      "version": "0.1.2",
+      "tag": "v0.1.2",
+      "asset_url": "https://github.com/aiocean/clik-browser-frame/releases/download/v0.1.2/browser-frame-0.1.2.clikplugin.tar.gz",
+      "sha256": "99b266e2213e2e9444b31136f34b56ef8cf1e35f70bf9707aece95e6f7f74552",
+      "size": 21515,
       "net": [],
       "steps": [
         {
